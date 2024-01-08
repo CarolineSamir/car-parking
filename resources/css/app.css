@@ -1,0 +1,38 @@
+
+.myProfile{
+    background-color: white;
+}
+.\.hello{
+    font-size:70px;
+    color: white;
+}
+.card-home{
+
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+    cursor: pointer;
+}
+.card.img{
+    width: 30px;
+}
+.card-home:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card-1{
+    /*background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: right;*/
+    /*background-size: 80px;*/
+    width: 20rem !important;
+}
+.a-style{
+    text-decoration: none;
+    color: black;
+}
+/*@document url("http://localhost/Car-Parking/my/profile"){*/
+/*    .body{ background-color: white}*/
+/*}*/
+
